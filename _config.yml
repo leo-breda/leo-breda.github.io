@@ -119,7 +119,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "LinkedIn"
-      icon: "fa fa-fw fa-linkedin-square"
+      icon: "fas fa-fw fa-linkedin-square"
       url: "https://www.linkedin.com/in/leonardo-breda-b49a08213/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
