@@ -11,11 +11,11 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 #theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Leo's cafffè"
+title                    : "Leo's caffè"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Leonardo Breda"
@@ -118,9 +118,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "LinkedIn"
+      icon: "fa fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/leonardo-breda-b49a08213/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leo-breda"
