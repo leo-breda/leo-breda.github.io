@@ -4,12 +4,12 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 0px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 0;
 
   &__inner-wrap {
     @include clearfix;
@@ -30,7 +30,7 @@
     }
 
     nav {
-      z-index: 10;
+      z-index: 00;
     }
 
     a {
