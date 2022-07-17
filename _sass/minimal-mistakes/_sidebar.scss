@@ -19,11 +19,16 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+   /* opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;*/
 
-    &:hover {
+   opacity: 1;
+   //-webkit-transition: opacity 0.2s ease-in-out;
+   //transition: opacity 0.2s ease-in-out;
+
+   
+    /*&:hover {
       opacity: 1;
     }
 
@@ -31,9 +36,10 @@
       overflow-y: auto;
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
-      */
+      
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
+*/
   }
 
   @include breakpoint($x-large) {
@@ -247,7 +253,7 @@
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: $background-color;
+  background: #a2ffe9;
   box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
   cursor: default;
 
