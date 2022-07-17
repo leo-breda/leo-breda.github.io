@@ -106,28 +106,7 @@ author:
   name             : "Leonardo Breda"
   avatar           : "/assets/images/avatar.png"
   bio              : ""
-  location         : "Milan, Italy"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:leobre.uni@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://leo-breda.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/leonardo-breda-b49a08213/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/leo-breda"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
+  
 # Site Footer
 footer:
   links:
