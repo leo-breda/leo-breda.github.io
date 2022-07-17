@@ -19,7 +19,7 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
@@ -134,7 +134,7 @@
   }
 
   img {
-    max-width: 110px;
+    max-width: 220px;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -173,7 +173,7 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font: Georgia;
   font-size: $type-size-5;
 }
 
