@@ -1,14 +1,14 @@
 main:
   #- title: "Quick-Start Guide"
   # url: /docs/quick-start-guide/
-  #- title: "Categories"
-  #  url: /categories/
-  #- title: "Tags"
-  #  url: /tags/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
 
 
 docs:
-  - title: 
+  - title: Site
     children:
       - title: "Categories"
         url: /categories/
