@@ -1,9 +1,36 @@
 main:
   #- title: "Quick-Start Guide"
   # url: /docs/quick-start-guide/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  #- title: "Categories"
+  #  url: /categories/
+  #- title: "Tags"
+  #  url: /tags/
+
+
+docs:
+  - title: 
+    children:
+      - title: "Categories"
+        url: /categories/
+      - title: "Tags"
+        url: /tags/
+      - title: "Curriculum vitae"
+        url: cv.pdf
+      - title: "Research statement"
+        url: rs.pdf
+  - title: Links
+    children:
+      - label: "Email"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "mailto:leobre.uni@gmail.com"
+      - label: "Website"
+        icon: "fas fa-fw fa-link"
+        url: "https://leo-breda.github.io/"
+      - label: "LinkedIn"
+        icon: "fab fa-fw fa-linkedin"
+        url: "https://www.linkedin.com/in/leonardo-breda-b49a08213/"
+      - label: "GitHub"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/leo-breda"
+
+
