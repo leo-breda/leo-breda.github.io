@@ -301,5 +301,6 @@ defaults:
       comments: false
       share: false
       related: false
+      author_profile: true
       sidebar:
         nav: "docs"
