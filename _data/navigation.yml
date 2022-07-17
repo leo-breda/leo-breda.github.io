@@ -20,10 +20,10 @@ docs:
         url: rs.pdf
   - title: Links
     children:
-      - label: "Email"
+      - title: "Email"
         icon: "fas fa-fw fa-envelope-square"
         url: "mailto:leobre.uni@gmail.com"
-      - label: "Website"
+      - title: "Website"
         icon: "fas fa-fw fa-link"
         url: "https://leo-breda.github.io/"
       - label: "LinkedIn"
