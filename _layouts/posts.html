@@ -2,6 +2,14 @@
 layout: archive
 ---
 
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
 {{ content }}
 
 <ul class="taxonomy__index">
@@ -25,6 +33,8 @@ layout: archive
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
     </div>
+    </div>
+  </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
