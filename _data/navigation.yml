@@ -4,7 +4,9 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Tags"
-    url: /tags/
+    url: /tags/ 
+  - title: "Search"
+    url: /Search/
 
 
 docs:
@@ -26,10 +28,10 @@ docs:
       - title: "Website"
         icon: "fas fa-fw fa-link"
         url: "https://leo-breda.github.io/"
-      - label: "LinkedIn"
+      - title: "LinkedIn"
         icon: "fab fa-fw fa-linkedin"
         url: "https://www.linkedin.com/in/leonardo-breda-b49a08213/"
-      - label: "GitHub"
+      - title: "GitHub"
         icon: "fab fa-fw fa-github"
         url: "https://github.com/leo-breda"
 
