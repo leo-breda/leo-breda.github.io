@@ -18,7 +18,7 @@ locale                   : "en-US"
 title                    : "Leo's caffè"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Leonardo Breda"
+name                     : "Leo's caffè"
 description              : "My personal blog"
 url                      : "https://leo-breda.github.io/"
 baseurl                  : 
