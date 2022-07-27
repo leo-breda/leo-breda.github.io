@@ -28,7 +28,10 @@
       </span>
     {% endif %}
     <span class="page__meta-readtime">
+    <br>
+    {% for i in (1..page.stars) %}
     {{page.stars}}
+    {% endfor %}  
     </span>
   </p>
 {% endif %}
