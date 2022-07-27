@@ -30,13 +30,15 @@
     <span class="page__content e-content">
     <br>
       {% if page.stars > 0 %}
+      <h3>
         {% for i in (1..5) %}
           {% if i<= page.stars %}
-          <h3> &#9733;</h3>
+           &#9733;
           {% else %}
-          <h3>&#9734;</h3>               
+           &#9734;              
           {% endif %}
         {% endfor %} 
+      </h3>
       {% endif %}
     </span>
   </p>
